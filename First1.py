@@ -12,3 +12,7 @@ print(driver.title)
 driver.maximize_window()
 time.sleep(2)
 driver.minimize_window()
+
+print("Login page")
+print("Login page")
+print("Login page")
