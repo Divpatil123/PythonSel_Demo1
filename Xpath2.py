@@ -23,4 +23,5 @@ driver.find_element(By.XPATH, "//*[@id='accordionSidebar']/li[2]/a/span").click(
 driver.find_element(By.XPATH,"//input[@name='txtsbdate']").send_keys("13-09-2023")
 driver.find_element(By.XPATH, "//input[@name= 'txtvendn']").send_keys("Divya Patil")
 driver.find_element(By.XPATH, "//input[@name='txtvendmobile']").send_keys("9876543210")
-
+driver.find_element(By.XPATH, "//input[@placeholder='Address']").send_keys("Pune")
+driver.find_element(By.XPATH, "//input[@name='sub']").click()
